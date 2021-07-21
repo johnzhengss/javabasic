@@ -8,7 +8,7 @@ public class AssignmentTwo {
 
         Random random = new Random();
         int x = random.nextInt(100) + 1;
-        System.out.println("x: " + x);
+//        System.out.println("x: " + x);
 
         Scanner scanner = new Scanner(System.in);
         int n;
