@@ -15,7 +15,7 @@ public class AssignmentTwo {
 
     public int[] findMax(int[][] matrix){
 
-        int[] result = new int[2];
+        int[] result = new int[3];
         if(matrix == null || matrix[0] == null){
             return result;
         }
@@ -29,6 +29,7 @@ public class AssignmentTwo {
                 }
             }
         }
+        result[2] = max;
         return result;
     }
 }
