@@ -1,13 +1,12 @@
 package daysix;
 
-import java.math.BigDecimal;
 import java.sql.*;
 
 
 public class SampleSingleton {
     private static Connection conn = null;
 
-    private static volatile SampleSingleton instance = null;
+    private static SampleSingleton instance = null;
     private SampleSingleton(){
 
     }
